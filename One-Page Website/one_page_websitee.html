@@ -1,30 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>The Pepsi Man universe</title>
+        <meta charset="UTF-8">
+        <title>Final Fantasy 7 Fan Page</title>
+        <link rel="stylesheet" href="./css/one_page_website.css">
+        <link rel="stylesheet" href="./css/animations.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon_io/android-chrome-192x192.png">
     </head>
-<body>
+
+    <body>
 
     <!--NAV-->
-    <div>
-        <div>
-            <ul>
-                <a href="#home" id="link"><li>HOME</li></a>
-                <a href="#gallery"><li>GALLERY</li></ul</a>
+    <div class="wrap"></div>
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#home"><li>HOME</li></a>
+                <a href="#gallery"><li>GALLERY</li></a>
                 <a href="#contact"><li>RESERVATIONS</li></a>
             </ul>
         </div>
-        <!--END NAV-->
     </div>
-
-     <!--HOME-->
-     <div id="home">
-        <div>
-            <div>
-            <span>The Pepsi Man</span>
-            
+        <!--END NAV-->
+    
+    <!--HOME-->
+    <div id="home">
+        <div class="container">
+            <div class="text-center">
+            <span class="head-main">The Unoffical FFVII Fan Page</span>
             </div>
         </div>
     </div>
     <!--END HOME-->
+
+    <!--GALLERY-->
+    <section id="gallery">
+        <div class="container">
+            <h1>Character Portraits</h1>
+            <div class="flex-container">
+
+                <!--PHOTO CONTAINER 1-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src=" ./images/thumb/thumbnail_1.png" alt="Cloud Strife">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
+                            <p>The main hero of the story Cloud Strife.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 1-->
+
+                <!--PHOTO CONTAINER 2-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src=" ./images/thumb/thumbnail_2.png" alt="Tifa Lockhart">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
+                            <p>Childhood friend of Cloud Strife and prominent martial artist Tifa Lockhart!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 2-->
+
+
+                <!--PHOTO CONTAINER 3-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src=" ./images/thumb/thumbnail_3.png" alt="Barret Wallace">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
+                            <p>The rough and tough badass with a gun for an arm, Barret Wallace.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 3-->
+
+
+                <!--PHOTO CONTAINER 4-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src=" ./images/thumb/thumbnail_4.png" alt="Aerith Gainsborough">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
+                            <p>Aerith Gainsborough. The flower girl with a mysterious past.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 4-->
+
+
+                <!--PHOTO CONTAINER 5-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src=" ./images/thumb/thumbnail_5.png" alt="Red XIII">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
+                            <p>Red XIII is an enegimatic talking dog with a tragic backstory.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 5-->
+
+
+                <!--PHOTO CONTAINER 6-->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src=" ./images/thumb/thumbnail_6.png" alt="Yuffie Kisaragi">
+                        <div class="photo-overlay">
+                            <h3 class="white-head">Click to Enlarge</h3>
+                            <p>Yuffie Kisaragi is a hunter of rare magical spheres called "Materia".</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END PHOTO CONTAINER 6-->
+
+
+            </div>
+        </div>
+    </section>
+               <!--END GALLERY-->
+
+               <!--RSVP-->
+               <section>
+                <div id="contact">
+                    <div class="container">
+                        <div class="heading-padding">
+                            <h1 class="heading-padding"> Reservations</h1>
+                            <div class="reservation">
+                                <h2><span>Sign up for our newsletter and meetup information.</span>
+                                    <br />Reservevations are first come first serve!
+                            </h2>
+                            <p class="rsvp-text">
+                                Please provide your contact information.
+                            </p>
+                            <div class="form-rsvp">
+                                <form action="" method="post">
+                                    <input class="rsvp" type="text" value="" placeholder="First Name">
+                                    <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                    <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                    <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                                    <div class="form-spacer">
+                                        <label class="terms">Terms and Conditions</label>
+                                    </div>
+                                    <div class="submit">
+                                        <input type="submit" value="submit">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                 </div>
+            </section>
+            <!--END RSVP-->
+
+            <!--FOOTER--->
+                <div id="footer">
+                    www.finalfantasty7meetgroup.com &nbsp;|&nbsp; &copy; 2023    
+                </div>
+            <!--END FOOTER-->
+
+            
+    </body>
+    
+</html>
